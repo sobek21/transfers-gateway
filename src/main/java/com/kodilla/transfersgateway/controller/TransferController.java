@@ -31,8 +31,4 @@ public class TransferController {
     transferProducer.sendTransfer(transfer);
 
   }
-  @GetMapping("/a")
-  public String test1() {
-    return "tal";
-  }
 }
